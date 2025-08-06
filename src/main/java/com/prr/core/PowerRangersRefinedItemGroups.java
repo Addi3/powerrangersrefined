@@ -1,0 +1,32 @@
+package com.prr.core;
+
+import com.prr.PowerRangersRefined;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
+import net.minecraft.text.Text;
+
+public class PowerRangersRefinedItemGroups {
+    public static final ItemGroup ANCIENT_ITEM_GROUP = Registry.register(Registries.ITEM_GROUP,
+            PowerRangersRefined.id("mmpr"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.mmpr"))
+                    .icon(() -> new ItemStack(Items.GLOW_ITEM_FRAME)).entries((displayContext, entries) -> {
+
+
+                     //   entries.add(PowerRangersRefinedItems.DECOR_POT_BLOCK);
+
+
+                    }).build());
+
+
+    public static void registerItemGroups() {
+        PowerRangersRefined.LOGGER.info("Registering Item Groups for " + PowerRangersRefined.MOD_ID);
+    }
+
+    public static void initialize() {
+
+    }
+}
