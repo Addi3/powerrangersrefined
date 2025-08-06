@@ -17,6 +17,10 @@ public class PowerRangersRefinedItems  {
             new MMPowerSword(PowerRangersRefinedToolMaterials.MM_POWER_SWORD, 10, 0.5F, new Item.Settings().maxCount(1))
     );
 
+    public static final Item POWER_COIN = registerItem("power_coin",
+            new Item(new Item.Settings().maxCount(1))
+    );
+
 
 
 

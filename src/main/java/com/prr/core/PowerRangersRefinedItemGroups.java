@@ -16,6 +16,7 @@ public class PowerRangersRefinedItemGroups {
                     .icon(() -> new ItemStack(Items.GLOW_ITEM_FRAME)).entries((displayContext, entries) -> {
 
 
+                        entries.add(PowerRangersRefinedItems.POWER_COIN);
                         entries.add(PowerRangersRefinedItems.MM_POWER_SWORD);
 
 

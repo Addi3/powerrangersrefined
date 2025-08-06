@@ -1,5 +1,6 @@
 package com.prr;
 
+import com.prr.core.PowerRangersRefinedBlocks;
 import com.prr.core.PowerRangersRefinedItemGroups;
 import com.prr.core.PowerRangersRefinedItems;
 import net.fabricmc.api.ModInitializer;
@@ -21,6 +22,7 @@ public class PowerRangersRefined implements ModInitializer {
 
         PowerRangersRefinedItemGroups.initialize();
         PowerRangersRefinedItems.registerPowerRangersRefinedItems();
+        PowerRangersRefinedBlocks.registerPowerRangersRefinedBlocks();
 
 	}
 }
