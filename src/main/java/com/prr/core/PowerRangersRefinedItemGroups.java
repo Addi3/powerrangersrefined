@@ -16,7 +16,7 @@ public class PowerRangersRefinedItemGroups {
                     .icon(() -> new ItemStack(Items.GLOW_ITEM_FRAME)).entries((displayContext, entries) -> {
 
 
-                     //   entries.add(PowerRangersRefinedItems.DECOR_POT_BLOCK);
+                        entries.add(PowerRangersRefinedItems.MM_POWER_SWORD);
 
 
                     }).build());
