@@ -20,13 +20,16 @@
 </h2>
 
 ### Why is 1.0.0+ fabric?
-- I originaly made this mod using Mcreator (a Minecraft mod making software) but this past year have been learing actual Java and coding mods myself, Fabric is just the loader i decided to learn
+- I originaly made this mod using Mcreator (a Minecraft mod making software) but this past year have been learning actual Java and coding mods myself, Fabric is just the loader i decided to learn.
 
 ### Will this be on Forge / NeoForge?
 - Nope as I said above, i have only learnt fabric. If you want a forge version use the older `DEPRECATE` versions (these wont recive updates tho)
 
 ### Where do i get updates on the mod?
 - https://discord.gg/kndce97FyU < join for more info!
+
+### Can i port to ....
+- This mod is open source so you can gladly port to what ever version and modloader you like, just don't claim the mod as your own! (If you upload said port to a mod website, ask me first!)
 
 -------------
 -------------
