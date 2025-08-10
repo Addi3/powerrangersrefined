@@ -19,7 +19,15 @@ public class PowerRangersRefinedModelProvider extends JoyeuxLibModelProvider {
 
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
 
-         itemModelGenerator.register(PowerRangersRefinedItems.POWER_COIN, Models.GENERATED);
+         itemModelGenerator.register(PowerRangersRefinedItems.MM_POWER_COIN, Models.GENERATED);
+         itemModelGenerator.register(PowerRangersRefinedItems.MM_FOSSIL_TREX, Models.GENERATED);
+         itemModelGenerator.register(PowerRangersRefinedItems.MM_FOSSIL_MASTODON, Models.GENERATED);
+         itemModelGenerator.register(PowerRangersRefinedItems.MM_FOSSIL_PTERO, Models.GENERATED);
+         itemModelGenerator.register(PowerRangersRefinedItems.MM_FOSSIL_SABER, Models.GENERATED);
+         itemModelGenerator.register(PowerRangersRefinedItems.MM_FOSSIL_TRICERA, Models.GENERATED);
+         itemModelGenerator.register(PowerRangersRefinedItems.MM_FOSSIL_DRAGON, Models.GENERATED);
+         itemModelGenerator.register(PowerRangersRefinedItems.MM_FOSSIL_TIGER, Models.GENERATED);
+         itemModelGenerator.register(PowerRangersRefinedItems.MORPHING_GRID_UPGRADE , Models.GENERATED);
 
     }
 }

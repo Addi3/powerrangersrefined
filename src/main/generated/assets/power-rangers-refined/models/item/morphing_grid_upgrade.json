@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "power-rangers-refined:item/morphing_grid_upgrade"
+  }
+}

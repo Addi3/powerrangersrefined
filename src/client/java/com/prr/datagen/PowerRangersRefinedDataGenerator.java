@@ -25,6 +25,16 @@ public class PowerRangersRefinedDataGenerator implements DataGeneratorEntrypoint
 
 // Items
         joyENUSLang.addTranslation("item.power-rangers-refined.mm_power_sword","Power Sword");
+        joyENUSLang.addTranslation("item.power-rangers-refined.mm_power_coin","Power Coin");
+        joyENUSLang.addTranslation("item.power-rangers-refined.mm_fossil_dragon","Dragon Fossil");
+        joyENUSLang.addTranslation("item.power-rangers-refined.mm_fossil_mastodon","Mastodon Fossil");
+        joyENUSLang.addTranslation("item.power-rangers-refined.mm_fossil_ptero","Pterodactyl Fossil");
+        joyENUSLang.addTranslation("item.power-rangers-refined.mm_fossil_saber","Saber Tooth Fossil");
+        joyENUSLang.addTranslation("item.power-rangers-refined.mm_fossil_trex","Trex Fossil");
+        joyENUSLang.addTranslation("item.power-rangers-refined.mm_fossil_tricera","Triceratops Fossil");
+        joyENUSLang.addTranslation("item.power-rangers-refined.mm_fossil_tiger","White Tiger Fossil");
+        joyENUSLang.addTranslation("item.power-rangers-refined.mighty_morpher","Mighty Morpher");
+        joyENUSLang.addTranslation("item.power-rangers-refined.morphing_grid_upgrade","Morphing Grid Upgrade");
 
 
 

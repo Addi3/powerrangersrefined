@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "power-rangers-refined:item/power_coin"
+    "layer0": "power-rangers-refined:item/mm_fossil_tiger"
   }
 }

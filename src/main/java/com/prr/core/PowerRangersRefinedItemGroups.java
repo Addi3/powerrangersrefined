@@ -16,7 +16,16 @@ public class PowerRangersRefinedItemGroups {
                     .icon(() -> new ItemStack(Items.GLOW_ITEM_FRAME)).entries((displayContext, entries) -> {
 
 
-                        entries.add(PowerRangersRefinedItems.POWER_COIN);
+                        entries.add(PowerRangersRefinedItems.MM_FOSSIL_TREX);
+                        entries.add(PowerRangersRefinedItems.MM_FOSSIL_MASTODON);
+                        entries.add(PowerRangersRefinedItems.MM_FOSSIL_PTERO);
+                        entries.add(PowerRangersRefinedItems.MM_FOSSIL_SABER);
+                        entries.add(PowerRangersRefinedItems.MM_FOSSIL_TRICERA);
+                        entries.add(PowerRangersRefinedItems.MM_FOSSIL_DRAGON);
+                        entries.add(PowerRangersRefinedItems.MM_FOSSIL_TIGER);
+                        entries.add(PowerRangersRefinedItems.MORPHING_GRID_UPGRADE);
+                        entries.add(PowerRangersRefinedItems.MM_POWER_COIN);
+                        entries.add(PowerRangersRefinedItems.MIGHTY_MORPHER);
                         entries.add(PowerRangersRefinedItems.MM_POWER_SWORD);
 
 
