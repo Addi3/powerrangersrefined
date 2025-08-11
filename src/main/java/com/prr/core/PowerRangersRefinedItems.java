@@ -57,6 +57,34 @@ public class PowerRangersRefinedItems  {
             new Item(new Item.Settings().maxCount(64))
     );
 
+    public static final Item MM_TIGER_COIN = registerItem("mm_tiger_coin",
+            new Item(new Item.Settings().maxCount(1))
+    );
+
+    public static final Item MM_DRAGON_COIN = registerItem("mm_dragon_coin",
+            new Item(new Item.Settings().maxCount(1))
+    );
+
+    public static final Item MM_MASTODON_COIN = registerItem("mm_mastodon_coin",
+            new Item(new Item.Settings().maxCount(1))
+    );
+
+    public static final Item MM_PTERO_COIN = registerItem("mm_ptero_coin",
+            new Item(new Item.Settings().maxCount(1))
+    );
+
+    public static final Item MM_TREX_COIN = registerItem("mm_trex_coin",
+            new Item(new Item.Settings().maxCount(1))
+    );
+
+    public static final Item MM_SABER_COIN = registerItem("mm_saber_coin",
+            new Item(new Item.Settings().maxCount(1))
+    );
+
+    public static final Item MM_TRICERA_COIN = registerItem("mm_tricera_coin",
+            new Item(new Item.Settings().maxCount(1))
+    );
+
 
 
 
