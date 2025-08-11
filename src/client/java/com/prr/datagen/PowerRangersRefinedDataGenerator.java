@@ -167,7 +167,7 @@ joyRecipe.addShapedRecipe(ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Po
 
         joyRecipe.addShapelessRecipe(ShapelessRecipeJsonBuilder
                 .create(RecipeCategory.MISC, PowerRangersRefinedItems.BRASS_INGOT, 4)
-                .group("brass_ingot")
+                .group("brass")
                 .input(Items.GOLD_INGOT)
                 .input(Items.COPPER_INGOT)
                 .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
@@ -175,9 +175,31 @@ joyRecipe.addShapedRecipe(ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Po
 
         joyRecipe.addShapelessRecipe(ShapelessRecipeJsonBuilder
                 .create(RecipeCategory.MISC, PowerRangersRefinedItems.BRASS_NUGGET, 9)
-              .group("brass_ingot")
+              .group("brass")
                 .input(PowerRangersRefinedItems.BRASS_INGOT)
                 .criterion(hasItem(PowerRangersRefinedItems.BRASS_INGOT), conditionsFromItem(PowerRangersRefinedItems.BRASS_INGOT)));
+
+        joyRecipe.addShapedRecipe(ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, PowerRangersRefinedItems.BRASS_INGOT, 1)
+                .group("brass")
+                .pattern("NNN")
+                .pattern("NNN")
+                .pattern("NNN")
+                .input('N', PowerRangersRefinedItems.BRASS_NUGGET)
+                .criterion(hasItem(PowerRangersRefinedItems.BRASS_NUGGET), conditionsFromItem(PowerRangersRefinedItems.BRASS_NUGGET)),
+                PowerRangersRefined.id("brass_ingot_from_nuggets"));
+
+
+
+        joyRecipe.addShapedRecipe(ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, PowerRangersRefinedItems.MM_POWER_COIN, 1)
+                .group("brass")
+                .pattern(" N ")
+                .pattern("NBN")
+                .pattern(" N ")
+                .input('N', PowerRangersRefinedItems.BRASS_NUGGET)
+                .input('B', PowerRangersRefinedItems.BRASS_INGOT)
+                .criterion(hasItem(PowerRangersRefinedItems.BRASS_INGOT), conditionsFromItem(PowerRangersRefinedItems.BRASS_INGOT))
+                .criterion(hasItem(PowerRangersRefinedItems.BRASS_NUGGET), conditionsFromItem(PowerRangersRefinedItems.BRASS_NUGGET)));
+
 
         return joyRecipe;
     }

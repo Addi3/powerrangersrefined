@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "power-rangers-refined:mm_power_coin"
+  },
+  "base": {
+    "item": "power-rangers-refined:mm_fossil_saber"
+  },
+  "result": {
+    "item": "power-rangers-refined:mm_saber_coin"
+  },
+  "template": {
+    "item": "power-rangers-refined:morphing_grid_upgrade"
+  }
+}

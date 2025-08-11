@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "power-rangers-refined:mm_power_coin"
+  },
+  "base": {
+    "item": "power-rangers-refined:mm_fossil_dragon"
+  },
+  "result": {
+    "item": "power-rangers-refined:mm_dragon_coin"
+  },
+  "template": {
+    "item": "power-rangers-refined:morphing_grid_upgrade"
+  }
+}

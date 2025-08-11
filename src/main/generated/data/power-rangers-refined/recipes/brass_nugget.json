@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "brass",
+  "ingredients": [
+    {
+      "item": "power-rangers-refined:brass_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "power-rangers-refined:brass_nugget"
+  }
+}

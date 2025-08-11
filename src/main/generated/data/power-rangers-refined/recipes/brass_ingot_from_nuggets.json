@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "brass",
+  "key": {
+    "N": {
+      "item": "power-rangers-refined:brass_nugget"
+    }
+  },
+  "pattern": [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+  "result": {
+    "item": "power-rangers-refined:brass_ingot"
+  },
+  "show_notification": true
+}
