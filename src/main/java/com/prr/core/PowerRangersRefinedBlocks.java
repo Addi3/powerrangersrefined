@@ -14,8 +14,6 @@ import net.minecraft.util.Identifier;
 
 public class PowerRangersRefinedBlocks {
 
-    public static final Block FOSSIL_BLOCK = registerBlock("fossil_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.BONE_BLOCK).sounds(BlockSoundGroup.BONE)));
 
 
 

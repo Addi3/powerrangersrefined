@@ -35,6 +35,9 @@ public class PowerRangersRefinedModelProvider extends JoyeuxLibModelProvider {
         itemModelGenerator.register(PowerRangersRefinedItems.MM_PTERO_COIN, Models.GENERATED);
         itemModelGenerator.register(PowerRangersRefinedItems.MM_TRICERA_COIN, Models.GENERATED);
         itemModelGenerator.register(PowerRangersRefinedItems.MORPHING_GRID_UPGRADE, Models.GENERATED);
+        itemModelGenerator.register(PowerRangersRefinedItems.MORPHING_GRID, Models.GENERATED);
+        itemModelGenerator.register(PowerRangersRefinedItems.BRASS_INGOT, Models.GENERATED);
+        itemModelGenerator.register(PowerRangersRefinedItems.BRASS_NUGGET, Models.GENERATED);
 
     }
 }

@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "power-rangers-refined:item/mm_mastodon_coin"
-  }
-}

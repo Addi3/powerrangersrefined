@@ -30,6 +30,9 @@ public class PowerRangersRefined implements ModInitializer {
         PowerRangersRefinedBlocks.registerPowerRangersRefinedBlocks();
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(PowerRangersRefinedItems.MORPHING_GRID_UPGRADE.asItem());
+            entries.add(PowerRangersRefinedItems.MORPHING_GRID.asItem());
+            entries.add(PowerRangersRefinedItems.BRASS_INGOT.asItem());
+            entries.add(PowerRangersRefinedItems.BRASS_NUGGET.asItem());
         });
 
 	}
